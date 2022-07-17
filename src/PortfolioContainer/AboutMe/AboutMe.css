@@ -32,7 +32,6 @@
   justify-content: center;
 }
 .about-parent{
-  
   flex-direction: row ;
   color: rgb(0, 0, 0);
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
@@ -41,7 +40,9 @@
   background-color: #ffffff;
   width: 75%;
 }
-
+.about-picture{
+  padding-top: 1rem;
+}
 .about-picture-background{
   height: 35rem;
   width: 150rem;
@@ -52,7 +53,6 @@
   background-repeat: no-repeat;
   background-position: center;
   image-orientation: flip;
-  
 }
 
 .about-picture:hover{
